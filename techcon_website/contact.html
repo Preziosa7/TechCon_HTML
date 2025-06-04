@@ -8,27 +8,30 @@
 <body>
     <header>
         <h1>Contact Us</h1>
+        <nav>
         <ul>
              <li><a href="index.html">Home</a></li>
              <li><a href="schedule.html">Schedule</a></li>
              <li><a href="about.html">About</a></li>
-             <li><a href="contact.html">Contact</a></li>
+             <li><a href="home.html">Home</a></li>
             </ul>
+        </nav>
     </header>
 
     <main>
         <a href="mailto:email@example.com"></a>
         <a href="" target="_blank"></a>
         <iframe src="" frameborder="0"></iframe>
+
         <form action="/submit-form" method="post">
             <label for="fullname">Name</label>
             <input type="text" id="fullname" name="fullname" required placeholder="fullname">
             
             <label for="email">Email</label>
-            <input type="email" id="email" name="email">
+            <input type="email" id="email" required name="email">
         
             <label for="message">Message</label>
-            <input type="textarea" id="textarea" name="textarea">
+            <input type="textarea" id="textarea" required name="textarea">
         
             <button type="submit">Send Message</button>
         </form>
